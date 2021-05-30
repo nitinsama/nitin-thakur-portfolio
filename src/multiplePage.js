@@ -161,7 +161,7 @@ class MultiplePage extends React.Component{
                                         <div class="col">
                                             <div class="card-body">
                                                 <h5 class="card-title">How are you</h5>
-                                                <p class="card-text">This skill greats you with random greet, and shows random cute dogs.</p>
+                                                <p class="card-text">This skill greets you with random greet, and shows random cute dogs.</p>
                                                 <i class="fas fa-star ratingStar"></i>
                                                 <i class="fas fa-star ratingStar"></i>
                                                 <i class="fas fa-star ratingStar"></i>
