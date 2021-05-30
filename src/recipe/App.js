@@ -56,7 +56,8 @@ export default class App extends Component {
   handleSubmit = (e) => {
     e.preventDefault()
     const str= this.state.search
-    const ingred = str.replace(/ /g, '')
+    const ingred0 = str.replace(/ /g, '')
+    const ingred= ingred0.toLowerCase();
 
     const filteredRecipes = this.state.recipes.filter(recipe=>
       recipe.ingredient === ingred) 
