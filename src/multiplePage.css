@@ -1,0 +1,163 @@
+.header{
+    position: fixed;
+    width: 100%;
+    z-index: 99999;
+}
+.headingText{
+  font-family: 'Roboto', sans-serif;
+  
+}
+.navBar{
+    background-color: rgb(20, 163, 211);
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+  
+  .navBar a{
+    text-decoration: none;
+    color: white;   
+    padding: 20px;
+  }
+  
+  .navBar a:hover{
+    text-decoration: none;
+    color: white;
+    padding: 0px 20px 10px 20px;
+    border-bottom: 2px solid white;
+  }
+  
+  .introduction{
+    padding-top: 30px;
+    background-color: rgba(20, 163, 211, 0.705);
+  }
+  
+  .imageCard{
+    background-color: rgb(20, 163, 211, 0.705);
+  }
+  .myImage{
+    width: 200px;
+  }
+  .myIntroduction{
+    padding: 50px 100px 50px 100px;
+    
+  }
+  .cardBody{
+    color: white;
+  }
+  
+  .cardBody h2{
+   
+    color: white;
+  }
+  .hireMeButton{
+    margin-top: 10px;
+  }
+  
+  /*---------Skill Overview-----*/
+  
+  .skillText{
+    color: black;
+    margin-bottom: 60px;
+  }
+  
+  .columnIcon{
+    margin-top: -50px;
+    border: 6px solid rgb(20, 163, 211, 0.705);
+    border-radius: 100%;
+    font-size: 2.5rem;
+    background-color: rgb(20, 163, 211);
+    padding: 10px 16px 10px 16px;
+    color:white;
+  }
+  .columnIcon1{
+    margin-top: -50px;
+    border: 6px solid rgb(20, 163, 211, 0.705);
+    border-radius: 100%;
+    font-size: 2.5rem;
+    background-color: rgb(20, 163, 211);
+    padding: 10px 13px 10px 13px;
+    color:white;
+  }
+  .columnIcon2{
+    margin-top: -50px;
+    border: 6px solid rgb(20, 163, 211, 0.705);
+    border-radius: 100%;
+    font-size: 2.5rem;
+    background-color: rgb(20, 163, 211);
+    padding: 10px 11px 10px 11px;
+    color:white;
+  }
+  
+  
+  .skillContainer{
+    padding-top: 50px;
+    margin: auto;
+  }
+  
+  .skillContainerRow{
+    text-align: center;
+    
+  }
+  
+  .skillColumn{
+    background-color: white;
+    margin: 10px;
+    border: 1px solid rgba(128, 128, 128, 0.219);
+    
+  }
+  
+  .skillColumn ul{
+    padding-left: 40px;
+    text-align: left;
+    list-style-type: none;
+    
+  }
+  
+  .skillColumn ul li{
+    padding:5px
+    
+  }
+  
+  .skillColumn ul li i{
+    padding:5px;
+    color:rgb(20, 163, 211);
+    
+  }
+  
+  #jump{
+    margin: 0px;
+  }
+
+  .ratingStar{
+      color: orange;
+  }
+  
+  .alexaImages img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 180px;
+  }
+
+  .contactInfo{
+    background-color: rgb(20, 163, 211);
+  }
+
+  .contactInfo i{
+    font-size: 5rem;
+  }
+
+  .contactInfo a{
+    color: white;
+    text-decoration: none;
+  }
+
+ .contactInfo>col:hover{
+  
+   border: 2px solid white;
+  }
+
+  .footer{
+    background-color: #282828;
+    color: white;
+  }

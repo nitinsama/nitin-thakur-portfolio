@@ -1,0 +1,47 @@
+
+
+.projectCol{
+    padding: 0 !important;
+    margin: 0 !important;
+}
+
+.projectCol button{
+    width:100%;
+    height: 200px;
+    color: white;
+    font-size: 2rem;
+    border-radius: 0px;
+}
+
+.projectCol button:hover{
+    color: white;
+    opacity: 100%;
+    transition: linear 0.3s;
+    border: 1px solid black;
+}
+.button1{
+    background-image: url("images/cloths.jpeg");
+    background-size: 100%;  
+    opacity: 50%; 
+}
+.button2{
+    background-image: url("images/tour.jpg") ;
+    background-size: 100%;
+    opacity: 50%; 
+}
+.button3{
+    background-image: url("images/todo.jpg");  
+    background-size: 100%;
+    opacity: 50%; 
+}
+.button4{
+    background-image: url("images/recipe.jpg");  
+    opacity: 50%;
+    background-size: 100%;
+}
+
+.projectCol h2{
+    color: black;
+    opacity: 100%;
+    
+}

@@ -1,0 +1,79 @@
+
+
+.tour{
+    background-color: #ececec;
+    border-radius: 0.8rem;
+    margin: 1rem 0;
+    
+    height: fit-content;
+}
+.tour img{
+    width: 100%; /* width of container */
+    height: 200px; /* height of container */
+    
+    border-top-left-radius: 0.8rem;
+    border-top-right-radius: 0.8rem;
+    display: block;
+}
+
+.tour:hover{
+    transition: all 0.3s linear;
+    box-shadow: 5px 10px 18px 0px #888888;
+}
+
+.imageContainer{
+    position: relative;
+}
+
+.closeBtn{
+    position: absolute;
+    display: block;
+    top: 5%;
+    right: 5%;
+    color: #82b340;
+    font-size: 2rem;
+    cursor: pointer;
+    transition: all 0.3s linear;
+    opacity: 0;
+}
+
+.imageContainer:hover .closeBtn{
+    opacity: 1;
+}
+
+.tourInfo{
+    padding: 1rem;
+
+}
+
+.tourInfo{
+    padding: 1rem;
+
+}
+.tourInfo h3{
+    font-size: 1.5rem;
+    color: #82b340;
+}
+.tourInfo h4{
+    text-transform: capitalize;
+    color: #222;
+    font-size: 0.9rem;
+    margin: 0.2rem 0 0.6rem 0;
+}
+.tourInfo h5{
+    text-transform: capitalize;
+    
+}
+.tourInfo h5 span{
+    color: #82b340;
+    margin: 0.5rem;
+    font-size: 1.2rem;
+    cursor: pointer;        
+}
+.toggleArrow i{
+   
+        padding-top: 2px;
+        position: absolute;
+
+    
+}

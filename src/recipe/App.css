@@ -1,0 +1,29 @@
+body{
+    /* font-family: 'Dosis', sans-serif ; */
+    background-color: whitesmoke;
+    
+}
+
+.textMerry{
+    font-family: 'Merriweather', serif;
+}
+
+.recipeContainer{
+    border-radius: 20px;
+}
+.recipeContainer:hover{
+    box-shadow: 5px 10px rgba(0, 0, 0, 0.247);
+    transition: all 0.4s;
+}
+
+.recipeImage{
+    object-fit:cover;
+    border-radius: 20px 20px 0px 0px;
+}
+
+.titleText{
+    font-size: larger;
+    font-weight: bolder;
+    letter-spacing: 3px;
+    text-align: center;
+}
