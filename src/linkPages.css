@@ -10,17 +10,23 @@
     height: 200px;
     font-size: 2rem;
     border-radius: 0px;
-}
-.projectCol h2{
-    font-size: 2rem;
     
 }
+.projectCol button:hover{
+    box-shadow: inset 0 0 50px #000000;
+    transition: linear 0.3s;
+}
+.projectCol h1{
+    color: white;
+  text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
+}
+
 
 /* .button1{
     background-image: url("images/cloths.jpeg");
     background-size: 100%;  
     opacity: 50%; 
-}
+
 .button2{
     background-image: url("images/tour.jpg") ;
     background-size: 100%;
