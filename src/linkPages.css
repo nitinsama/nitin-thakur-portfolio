@@ -13,13 +13,10 @@
     border-radius: 0px;
 }
 
-.projectCol button:hover{
-    color: white;
-    opacity: 100%;
-    transition: linear 0.3s;
-    border: 1px solid black;
+.projectCol:hover{
+    
 }
-.button1{
+/* .button1{
     background-image: url("images/cloths.jpeg");
     background-size: 100%;  
     opacity: 50%; 
@@ -38,7 +35,7 @@
     background-image: url("images/recipe.jpg");  
     opacity: 50%;
     background-size: 100%;
-}
+} */
 
 .projectCol h2{
     color: black;
