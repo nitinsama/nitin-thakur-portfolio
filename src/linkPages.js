@@ -16,12 +16,12 @@ class LinkPages extends React.Component{
                                 backgroundSize: "100%",
                                 opacity: "50%"
                                 }} >
-                                <h2>Buy Cloths</h2></button></Link>
+                                Buy Cloths</button></Link>
                         <Link to="/cityTour"><button class="btn button2"
                         style={{ backgroundImage: "url(/images/tour.jpg)" ,
                         backgroundSize: "100%",
                         opacity: "50%"
-                        }}><h2>City Tour</h2></button></Link>
+                        }}>City Tour</button></Link>
                     </div>
                     <div className="col projectCol">
                         <Link to="/todoList"><button class="btn button3"
@@ -29,12 +29,12 @@ class LinkPages extends React.Component{
                         backgroundSize: "100%",
                         opacity: "50%"
                         }}
-                        ><h2>To-Do List</h2></button></Link>
+                        >To-Do List</button></Link>
                         <Link to="/recipeFinder">
                         <button class="btn button4" style={{ backgroundImage: "url(/images/recipe.jpg)" ,
                                 backgroundSize: "100%",
                                 opacity: "50%"
-                                }}><h2>Recipe Finder</h2></button></Link>
+                                }}>Recipe Finder</button></Link>
                     </div>
                 </div>
             </div>
