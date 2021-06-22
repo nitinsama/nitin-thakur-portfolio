@@ -34,6 +34,7 @@ class MultiplePage extends React.Component{
                         <div className="navRight">
                             <a href="/">Home</a>
                             <a href="/#reactProjects">React Projects</a>
+                            <a href="https://angular-recipe-application.netlify.app/recipes" target="_blank">Angular Project</a>
                             <a href="/#alexaDeveloper">Alexa Developer</a>
                             <a href="/#contactInformation">Contact Me</a>
                         </div>
